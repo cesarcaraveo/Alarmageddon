@@ -15,7 +15,8 @@ from alarmageddon import banner
 
 import logging
 
-logger = logging.getLogger(__name__)
+logger = multiprocessing.log_to_stderr()
+logger.setLevel(logging.DEBUG)
 
 def load_config(config_path, environment_name):
     """Helper method for loading a :py:class:`~alarmageddon.config.Config`

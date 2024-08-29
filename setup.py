@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
         name = "Alarmageddon",
         description = "Automated testing and reporting",
-        version = "1.1.2",
+        version = "1.1.3",
         author = "Tim Stewart, Scott Hellman",
         author_email = "timothy.stewart@pearson.com, scott.hellman@pearson.com",
         url = "https://github.com/PearsonEducation/Alarmageddon/tarball/1.1.2",
